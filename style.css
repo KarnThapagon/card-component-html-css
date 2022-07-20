@@ -1,0 +1,94 @@
+*{
+    /* margin: 0 auto; */
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(https://fonts.google.com/specimen/Montserrat);
+    font-family: Fraunces;
+    src: url(https://fonts.google.com/specimen/Fraunces);
+}
+.box {
+    width: 1440px;
+    height: 750px;
+    background-color: hsl(30, 38%, 92%);
+    position: relative;
+}
+.main{
+    margin: 2rem auto;
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+.con-l{
+    width:47%;
+    position: relative;
+    float: left;
+}
+.con-l img{
+    float: left;
+    width: 300px;
+    height: 500px;
+}
+.center{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    padding-left: 2rem;
+    float: right;
+}
+.head p{
+    margin-top: 35px;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+    /* margin: 1rem; */
+    
+}
+.center p{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+.center h1{
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+}
+.history{
+    font-size: small;
+}
+.price h1{
+    display: inline;
+    color: hsl(158, 36%, 37%);;
+}
+.price p{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1rem;
+    display: inline;
+    
+}
+.footer {
+    padding-left: 3.5rem;
+    padding-top: 7px; 
+    background-color: hsl(158, 36%, 37%);
+    display: inline-block;
+    width: 220px;
+    height:40px;
+    border-radius: 10px;
+    
+}
+.footer p{
+    margin-top: 4px;
+    margin-left: 10px;
+    color: white;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
